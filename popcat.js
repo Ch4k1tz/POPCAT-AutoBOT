@@ -1,1 +1,58 @@
-const _0x215d27=_0x59f3;(function(_0x493f0b,_0x3f2546){const _0x126d8b=_0x59f3,_0x1fbfee=_0x493f0b();while(!![]){try{const _0xb68cee=-parseInt(_0x126d8b(0x122))/0x1+parseInt(_0x126d8b(0x128))/0x2*(-parseInt(_0x126d8b(0x127))/0x3)+parseInt(_0x126d8b(0x12d))/0x4+parseInt(_0x126d8b(0x12f))/0x5*(parseInt(_0x126d8b(0x121))/0x6)+-parseInt(_0x126d8b(0x13d))/0x7+parseInt(_0x126d8b(0x136))/0x8*(parseInt(_0x126d8b(0x11b))/0x9)+-parseInt(_0x126d8b(0x134))/0xa*(-parseInt(_0x126d8b(0x12a))/0xb);if(_0xb68cee===_0x3f2546)break;else _0x1fbfee['push'](_0x1fbfee['shift']());}catch(_0x441ffb){_0x1fbfee['push'](_0x1fbfee['shift']());}}}(_0x7b7f,0xc5b9f));function _0x59f3(_0x1a3430,_0x59dcd7){const _0x7b7f47=_0x7b7f();return _0x59f3=function(_0x59f3e1,_0x2c2a8d){_0x59f3e1=_0x59f3e1-0x117;let _0x3ebf4b=_0x7b7f47[_0x59f3e1];return _0x3ebf4b;},_0x59f3(_0x1a3430,_0x59dcd7);}const puppeteer=require(_0x215d27(0x125)),color=require('colors'),prompt=require(_0x215d27(0x11a))(),EventEmitter=require(_0x215d27(0x117)),emitter=new EventEmitter();emitter[_0x215d27(0x13c)](Number[_0x215d27(0x13b)]),process[_0x215d27(0x13c)](0x0),EventEmitter[_0x215d27(0x119)]=Infinity,EventEmitter[_0x215d27(0x131)][_0x215d27(0x126)]=Infinity;let count=0x0;console['log'](color[_0x215d27(0x124)]('\x0a╔═╗╔═╗╔═╗╔═╗╔═╗╔╦╗\x20\x20╔╗\x20╔═╗╔╦╗\x0a╠═╝║\x20║╠═╝║\x20\x20╠═╣\x20║\x20\x20\x20╠╩╗║\x20║\x20║\x20\x0a╩\x20\x20╚═╝╩\x20\x20╚═╝╩\x20╩\x20╩\x20\x20\x20╚═╝╚═╝\x20╩\x0aMade\x20By\x20WeAreRainBowHAT\x20(Thailand\x20Number\x2001\x20><)\x0a'));function _0x7b7f(){const _0x27d0b6=['COOKIE\x20CLEAR\x20','62110pKXiDM','--mute-audio','prototype','39460DoSXVo','7122JEzNMa','2180wmSlsP','45856nZdwec','1503392kWskmH','shift','setCookie','country','\x20started','POSITIVE_INFINITY','setMaxListeners','7878388skyBOd','1183888JuCXOq','203pAdFrz','keydown','events','475706RDcGAU','defaultMaxListeners','prompt-sync','18TuidaA','36llfwxP','306ZSlBJZ','https://popcat.click/','bot','evaluate','780HPTByY','1040753ACstbE','push','rainbow','Puppeteer','_maxListeners','6echoVf','572542wiSWBe','deleteCookie','59686pDTwhN','dispatchEvent','log','1500360lEpNuo'];_0x7b7f=function(){return _0x27d0b6;};return _0x7b7f();}const threads=prompt(color['green']('Enter\x20Threads:\x20'));(async()=>{const _0x44d5ea=_0x215d27;for(let _0x23b072=0x0;_0x23b072<threads;_0x23b072++){console[_0x44d5ea(0x12c)]('threads:\x20'+_0x23b072+_0x44d5ea(0x13a));const _0x19527c=await puppeteer['launch']({'args':[_0x44d5ea(0x130)],'headless':!![]}),_0xea7ac=await _0x19527c['newPage']();await _0xea7ac['goto'](_0x44d5ea(0x11e));function _0x1c7258(_0x461df1,_0x12ec43){var _0x4cc55e=_0x59e382();return _0x1c7258=function(_0x176121,_0x5b23dc){_0x176121=_0x176121-0xe4;var _0x2f3523=_0x4cc55e[_0x176121];return _0x2f3523;},_0x1c7258(_0x461df1,_0x12ec43);}(function(_0x3057e6,_0x527fd0){const _0x138930=_0x44d5ea;var _0x3ef039=_0x1c7258,_0x1d4edd=_0x3057e6();while(!![]){try{var _0x11d571=parseInt(_0x3ef039(0xe5))/0x1+parseInt(_0x3ef039(0xe8))/0x2*(-parseInt(_0x3ef039(0xe4))/0x3)+-parseInt(_0x3ef039(0xea))/0x4+parseInt(_0x3ef039(0xf2))/0x5*(-parseInt(_0x3ef039(0xe6))/0x6)+parseInt(_0x3ef039(0xed))/0x7*(parseInt(_0x3ef039(0xef))/0x8)+parseInt(_0x3ef039(0xf0))/0x9+-parseInt(_0x3ef039(0xeb))/0xa;if(_0x11d571===_0x527fd0)break;else _0x1d4edd[_0x138930(0x123)](_0x1d4edd[_0x138930(0x137)]());}catch(_0x996e7d){_0x1d4edd['push'](_0x1d4edd[_0x138930(0x137)]());}}}(_0x59e382,0x46061),setInterval(async()=>{const _0x6ac9a5=_0x44d5ea;var _0x54165b=_0x1c7258;_0xea7ac[_0x54165b(0xf1)]({'name':_0x54165b(0xec)}),_0xea7ac[_0x54165b(0xe7)]({'name':_0x54165b(0xe9),'value':'TH'}),console[_0x54165b(0xee)](_0x6ac9a5(0x12e)+count),count++;},0x1c2));function _0x59e382(){const _0x2ac156=_0x44d5ea;var _0x1f1e06=[_0x2ac156(0x11d),_0x2ac156(0x139),_0x2ac156(0x13e),'2217200kooJTi',_0x2ac156(0x11f),_0x2ac156(0x13f),_0x2ac156(0x12c),_0x2ac156(0x135),'5158341gPmMiX',_0x2ac156(0x129),_0x2ac156(0x132),_0x2ac156(0x133),_0x2ac156(0x118),_0x2ac156(0x11c),_0x2ac156(0x138)];return _0x59e382=function(){return _0x1f1e06;},_0x59e382();}await _0xea7ac[_0x44d5ea(0x120)](()=>{const _0x56d6cc=_0x44d5ea;var _0x44681d=new KeyboardEvent(_0x56d6cc(0x140),{'key':'n','ctrlKey':!![]});setInterval(()=>{const _0x4eaaa3=_0x56d6cc;for(_0x23b072=0x0;_0x23b072<0x7d0;_0x23b072++){document[_0x4eaaa3(0x12b)](_0x44681d);}});});}})();
+const puppeteer = require('Puppeteer');
+const color = require('colors');
+const prompt = require('prompt-sync')();
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+emitter.setMaxListeners(Number.POSITIVE_INFINITY);
+process.setMaxListeners(0);
+EventEmitter.defaultMaxListeners = Infinity;
+EventEmitter.prototype._maxListeners = Infinity;
+let count = 0;
+
+console.log(color.rainbow(`
+╔═╗╔═╗╔═╗╔═╗╔═╗╔╦╗  ╔╗ ╔═╗╔╦╗
+╠═╝║ ║╠═╝║  ╠═╣ ║   ╠╩╗║ ║ ║ 
+╩  ╚═╝╩  ╚═╝╩ ╩ ╩   ╚═╝╚═╝ ╩
+Made By WeAreRainBowHAT (Thailand Number 01 ><)
+`));
+const threads = prompt(color.green("Enter Threads: "));
+
+(async () => {
+    for (let i = 0; i < threads; i++){
+        console.log("threads: " + i + " started");
+        const browser = await puppeteer.launch({
+            args: [
+                "--mute-audio"
+            ],
+            headless: true
+        });
+        const page = await browser.newPage();
+        await page.goto('https://popcat.click/');
+        setInterval(async () => {
+            page.deleteCookie({
+                name:"bot"
+            });
+            page.setCookie({
+                'name': "country",
+                'value': "TH"
+            });
+            console.log("COOKIE CLEAR " + count);
+            count++;
+            // console.log("cookie deleted");
+        },450);
+        await page.evaluate(() => {
+            var event = new KeyboardEvent('keydown', {
+                key: 'n',
+                ctrlKey: true
+            });
+            // for (i = 0; i < 1000; i++) {
+            //     document.dispatchEvent(event);
+            // }
+            setInterval(() => {
+                for (i = 0; i < 2000; i++) {
+                    document.dispatchEvent(event);
+                }
+            });
+        });
+    }
+})();
