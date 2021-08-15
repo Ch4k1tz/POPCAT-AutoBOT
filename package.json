@@ -1,0 +1,17 @@
+{
+  "name": "POPCAT-AutoBOT-main",
+  "version": "1.0",
+  "description": "POPPPPPPPPPPPP",
+  "main": "popcat.js",
+  "repository": "https://github.com/WeAreRainBowHAT/POPCAT-AutoBOT",
+  "author": "WeAreRainBowHAT",
+  "license": "MIT",
+  "scripts": {
+    "okpopstart": "node popcat.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^10.2.0"
+  }
+}
