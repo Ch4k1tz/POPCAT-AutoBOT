@@ -10,6 +10,7 @@ I WANT YOU TO USE IT FOR FUN :D
 THAILAND NUMBER 01 THAILAND NUMBER 01 THAILAND NUMBER 01
 
 [HOW TO USE MY SCRIPT] >
+
 0. INSTALL NODEJS (NODE14)
 1. download my project
 2. npm install prompt-sync colors puppeteer
