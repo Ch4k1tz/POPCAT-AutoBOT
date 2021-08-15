@@ -15,5 +15,5 @@ THAILAND NUMBER 01 THAILAND NUMBER 01 THAILAND NUMBER 01
 
 0. INSTALL NODEJS (NODE14)
 1. download my project
-2. npm install prompt-sync colors puppeteer
-3. node popcat.js
+2. npm install or yarn install
+3. npm run okpopstart or yarn run okpopstart
