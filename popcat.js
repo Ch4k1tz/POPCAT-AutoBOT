@@ -41,18 +41,18 @@ const threads = prompt(color.green("Enter Threads: "));
             // console.log("cookie deleted");
         },450);
         await page.evaluate(() => {
-            var event = new KeyboardEvent('keydown', {
-                key: 'n',
-                ctrlKey: true
-            });
-            // for (i = 0; i < 1000; i++) {
-            //     document.dispatchEvent(event);
-            // }
+            //Code From Noxturnix
+            document.dispatchEvent(new KeyboardEvent('keydown', {'key':'a'}));
+            document.dispatchEvent(new KeyboardEvent('keyup', {'key':'a'}));
+            document.getElementById('app').__vue__.accumulator = 800;
+
             setInterval(() => {
-                for (i = 0; i < 2000; i++) {
-                    document.dispatchEvent(event);
-                }
-            });
+                document.dispatchEvent(new KeyboardEvent('keydown', {'key':'a'}));
+                document.dispatchEvent(new KeyboardEvent('keyup', {'key':'a'}));
+                document.getElementById('app').__vue__.bot = !1;
+                document.getElementById('app').__vue__.sequential_max_pops = 0;
+                document.getElementById('app').__vue__.accumulator = 800;
+            }, 15 * 1000);
         });
     }
 })();
