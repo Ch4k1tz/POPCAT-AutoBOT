@@ -41,34 +41,33 @@ const threads = prompt(color.green("Enter Threads: "));
             // console.log("cookie deleted");
         },450);
         await page.evaluate(() => {
-          var event = new KeyboardEvent('keydown', {
+            var event = new KeyboardEvent('keydown', {
                 key: 'n',
                 ctrlKey: true
             });
-            var isstarted = 0;
-            var pointed = 0;
             // for (i = 0; i < 1000; i++) {
             //     document.dispatchEvent(event);
             // }
-            document.cookie = "bot=fuck"
-            console.log("Started First Events.");
-            for (i = 0; i < 1; i++) {
-                pointed++;
-                document.dispatchEvent(event);
-            }
-            setInterval(() => {document.cookie = "bot="},1);
+            //Code From Noxturnix
+            document.dispatchEvent(new KeyboardEvent('keydown', {'key':'a'}));
+            document.dispatchEvent(new KeyboardEvent('keyup', {'key':'a'}));
+			if (document.getElementById('app')) {
+				document.getElementById('app').__vue__.accumulator = 800;		
+			}
+
             setInterval(() => {
-                if (isstarted == 0){
-                    console.log("Started Main Events.");
-                    console.log("POINT: " + pointed);
-                }
-                for (i = 0; i < 3; i++) {
-                    pointed++;
+                for (i = 0; i < 2000; i++) {
                     document.dispatchEvent(event);
                 }
-                document.cookie = "bot="
-                console.log("POINT: " + pointed);
-            },100);
+            
+                document.dispatchEvent(new KeyboardEvent('keydown', {'key':'a'}));
+                document.dispatchEvent(new KeyboardEvent('keyup', {'key':'a'}));
+				if (document.getElementById('app')) {
+					document.getElementById('app').__vue__.bot = !1;
+					document.getElementById('app').__vue__.sequential_max_pops = 0;
+					document.getElementById('app').__vue__.accumulator = 800;
+				}
+            }, 15 * 1000);
         });
     }
 })();
